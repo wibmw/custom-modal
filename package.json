@@ -1,6 +1,6 @@
 {
   "name": "custom-modal",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Modal component that can be customized with everything like DOM elements, text or an other component",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -25,7 +25,13 @@
     "awesome",
     "best",
     "fast",
-    "lite"
+    "lite",
+    "popup",
+    "window",
+    "dialog",
+    "simple",
+    "easy",
+    "alert"
   ],
   "author": "WIBMW",
   "license": "ISC",
@@ -57,6 +63,7 @@
     "react": ">=16"
   },
   "files": [
+    "dist",
     "dist",
     "LICENSE",
     "README.md"

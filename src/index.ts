@@ -1,3 +1,3 @@
-import CustomModal from './components/App'
+import CustomModal from './components/CustomModal'
 
 export { CustomModal }

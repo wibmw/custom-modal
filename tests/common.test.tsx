@@ -3,7 +3,7 @@ import { render } from '@testing-library/react'
 
 import 'jest-canvas-mock'
 
-import CustomModal from '../src/components/App'
+import CustomModal from '../src/components/CustomModal'
 
 const toggle = () => console.log('Custom Modal Test')
 
