@@ -7,10 +7,10 @@ const CustomModal = ({ isOpen, toggle, children }: IPropsModal) => {
       {isOpen ? (
         <div style={ModalOverlay} onClick={toggle}>
           {/** *********** Onclick on the overlay, the modal closes ******************/}
-          <div onClick={(e) => e.stopPropagation()} style={ModalBox}>
+          <span onClick={(e) => e.stopPropagation()} style={ModalBox}>
             {/** *********** Children for custom content here ******************/}
             {children}
-          </div>
+          </span>
         </div>
       ) : null}
     </>
@@ -36,9 +36,7 @@ const ModalOverlay = {
   justifyContent: 'center',
   alignItems: 'center',
   zIndex: '9999',
-  container: {
-    position: 'fixed',
-  },
+  position: 'fixed' as 'absolute',
 }
 
 const ModalBox = {

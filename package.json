@@ -1,5 +1,5 @@
 {
-  "name": "custom-modal",
+  "name": "@wibmw/custom-modal",
   "version": "0.0.1",
   "description": "Modal component that can be customized with everything like DOM elements, text or an other component",
   "main": "./dist/cjs/index.js",
@@ -34,7 +34,7 @@
     "alert"
   ],
   "author": "WIBMW",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wibmw/custom-modal/issues"
   },
@@ -64,8 +64,10 @@
   },
   "files": [
     "dist",
-    "dist",
     "LICENSE",
     "README.md"
-  ]
+  ],
+  "directories": {
+    "test": "tests"
+  }
 }
